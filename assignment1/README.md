@@ -6,14 +6,29 @@ All images use the following coordinate system:
 - **Y** up-down
 - **Z** in-out (of screen)
 
+Camera configuration files are formatted as follows:
+- **l** location vector
+- **d** direction vector
+- **u** up vector
+- **a** viewing angle
+- **h** horizontal resolution
+- **v** vertical resolution
+
 ### Scene 1
-A recreation of the assignment example scene.
-It consists of two spheres at $(1.0, 0.0, 0.0)$ and $(-1.0, 0.0, 0.0)$, and the `bound-bunny_1k.smf` model at $(0.0, 0.0, 0.0)$.
-The orientation of the bunny is different due to the different coordinate systems.
-
 ![Scene 1](scene1.png)
+Camera | Scene | Image | Ray Intersect Time
+------ | ----- | ----- | ------------------
+`camera-003-56-512.txt` | `scene1.txt` | `scene1.png` | `13.636290`
 
-### Camera Parameters
-Location | Direction | Up | Angle
--------- | --------- | -- | -----
-$(0.0, 0.0, 3.0)$ | $(0.0, 0.0, -1.0)$ | $[0.0, 1.0, 0.0]$ | $56.0$
+### Scene 2
+![Scene 2](scene2.png)
+Camera | Scene | Image | Ray Intersect Time
+------ | ----- | ----- | ------------------
+`camera-007-56-512.txt` | `scene2.txt` | `scene2.png` | `0.055456`
+
+### Scene 3
+![Scene 3](scene3.png)
+Camera | Scene | Image | Ray Intersect Time
+------ | ----- | ----- | ------------------
+`camera-007-90-512.txt` | `scene2.txt` | `scene3.png` | `0.049452`
+
