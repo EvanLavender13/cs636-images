@@ -14,6 +14,12 @@ Camera configuration files are formatted as follows:
 - **h** horizontal resolution
 - **v** vertical resolution
 
+Scene configuration files are formatted as follows:
+- **m** number of mesh models
+  - followed by a model file path and location vector, for each model
+- **p** number of parametric models (only spheres for now)
+  - followed by a type, radius, and location vector, for each model
+
 ### Scene 1
 ![Scene 1](scene1.png)
 Camera | Scene | Image | Ray Intersect Time
