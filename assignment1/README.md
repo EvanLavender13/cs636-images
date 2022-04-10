@@ -31,7 +31,7 @@ images/scene_bunny.png | images/scene_bunnygrid.png
 --- | ---
 ![](images/scene_bunny.png) | ![](images/scene_bunnygrid.png)
 
-Scene | Camera | Ray Intersect Time (`s`)
+Scene | Camera | Ray Intersect Time
 ------ | ----- | ------------------
 `config/scene_bunny.txt` | `config/camera-003-56-512.txt` | `12.420015`
 `config/scene_bunnygrid.txt` | `config/camera-003-56-512.txt` | `16.527548`
