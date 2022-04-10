@@ -33,8 +33,8 @@ images/scene_bunny.png | images/scene_bunnygrid.png
 
 Scene | Camera | Ray Intersect Time (`s`)
 ------ | ----- | ------------------
-`config/scene_bunny.txt` | `config/camera-003-56-512.txt` | `13.154582`
-`config/scene_bunnygrid.txt` | `config/camera-003-56-512.txt` | `24.454069`
+`config/scene_bunny.txt` | `config/camera-003-56-512.txt` | `12.420015`
+`config/scene_bunnygrid.txt` | `config/camera-003-56-512.txt` | `16.527548`
 
 ### Sphere Cube
 Different-sized spheres arranged as a cube.
@@ -45,8 +45,8 @@ images/scene_spherecube56.png | images/scene_spherecube90.png
 
 Scene | Camera | Ray Intersect Time
 ------ | ----- | ------------------
-`config/scene_spherecube.txt` | `config/camera-007-56-512.txt` | `0.052294`
-`config/scene_spherecube.txt` | `config/camera-007-90-512.txt` | `0.075021`
+`config/scene_spherecube.txt` | `config/camera-007-56-512.txt` | `0.048260`
+`config/scene_spherecube.txt` | `config/camera-007-90-512.txt` | `0.060491`
 
 ### Sphere Bezier Curve
 100 spheres arranged in a bezier-curve.
@@ -58,9 +58,9 @@ images/scene_spherebezier56.png | images/scene_spherebezier90.png | images/scene
 
 Scene | Camera | Ray Intersect Time
 ------ | ----- | ------------------
-`config/scene_spherebezier.txt` | `config/camera-007-56-512.txt` | `0.541690`
-`config/scene_spherebezier.txt` | `config/camera-007-90-512.txt` | `0.545998`
-`config/scene_spherebezier.txt` | `config/camera-010-120-512.txt` | `0.525959`
+`config/scene_spherebezier.txt` | `config/camera-007-56-512.txt` | `0.487524`
+`config/scene_spherebezier.txt` | `config/camera-007-90-512.txt` | `0.513600`
+`config/scene_spherebezier.txt` | `config/camera-010-120-512.txt` | `0.501305`
 
 ### Sphere Grid
 3375 spheres arranged in a large grid.
@@ -72,6 +72,6 @@ images/scene_spheregrid56.png | images/scene_spheregrid90.png | images/scene_sph
 
 Scene | Camera | Ray Intersect Time
 ------ | ----- | ------------------
-`config/scene_spheregrid.txt` | `config/camera-007-56-512.txt` | `17.403652`
-`config/scene_spheregrid.txt` | `config/camera-007-90-512.txt` | `18.383661`
-`config/scene_spheregrid.txt` | `config/camera-010-120-512.txt` | `18.214960`
+`config/scene_spheregrid.txt` | `config/camera-007-56-512.txt` | `16.386585`
+`config/scene_spheregrid.txt` | `config/camera-007-90-512.txt` | `16.363270`
+`config/scene_spheregrid.txt` | `config/camera-010-120-512.txt` | `16.336956`
