@@ -82,7 +82,7 @@ Scene | Camera | Ray Intersect Time
 This scene shows `9` spheres and `9` lights in a grid pattern.
 Each light is positioned in front of a sphere, `0.5` in the z-axis.
 Each light has an intensity that is slighty lower than the color of the sphere it is in front of.
-From left to right, the shading parameters of each sphere progress from `0.25` to `0.5`, then to `1.0`.
+From left to right, the shading parameters of each sphere go from `1.0` to `0.5`, then to `0.25`.
 All spheres have a shininess factor of `15`.
 
 images/scene_spheregrid.png | images/scene_spheregrid_aa.png
