@@ -94,6 +94,18 @@ Scene | Camera | Ray Intersect Time
 `config/scene_spheregrid.txt` | `config/camera-003-56-1024.txt` | `1.201748`
 `config/scene_spheregrid.txt` | `config/camera-003-56-1024.txt` | `1.791008`
 
+### Bunny Grid
+This scene is the same as the sphere grid, but with `bound-bunny_200.smf` models instead.
+
+images/scene_bunnygrid.png | images/scene_bunnygrid_aa.png
+--- | ---
+![](images/scene_bunnygrid.png) | ![](images/scene_bunnygrid_aa.png)
+
+Scene | Camera | Ray Intersect Time
+------ | ----- | ------------------
+`config/scene_bunnygrid.txt` | `config/camera-003-56-1024.txt` | `146.833618`
+`config/scene_bunnygrid.txt` | `config/camera-003-56-1024.txt` | `833.818054`
+
 ### Smile
 This scene shows `2` mesh models and `10` spheres with `3` lights.
 The models are `bound-lo-sphere.smf` at `-0.75 0.8 0.0` and `bound-bunny_1k.smf` at `0.75 0.8 0.0`.
