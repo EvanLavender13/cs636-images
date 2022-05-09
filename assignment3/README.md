@@ -36,10 +36,49 @@ Scene configuration files are formatted as follows:
         - scale
 
 ## Images
-All images are `512x512` resolution.
+All images are `512x512` resolution after down-sampling from `1024x1024`.
 
 ## Bounded Volume Hierarchy
+I implemented a Bounded Volume Hierarchy as the acceleration data structure.
+All mesh-model objects in a scene are divided into a set of triangle objects prior to being placed into the hierarchy.
+The tree has a tuneable depth parameter that cuts off tree construction when at a certain depth, or a single object is left.
+It also accepts `-1` as a value, which will calculate the depth required to place each individual object at a leaf.
+
+### BVH Test
+- `24928` objects
+- `bound-cow.smf`
+- `bound-bunny_5k.smf`
+- `frog.smf`
+- `4` spheres
+- `1` white light
 
 images/scene_bvhtest0.png | images/scene_bvhtest10.png
 --- | ---
 ![](images/scene_bvhtest0.png) | ![](images/scene_bvhtest10.png)
+`1589.226929s` | `60.878895s`
+
+![](images/bvhtestline-graph.png)
+
+### Bunny Grid
+- `9000` objects
+- `bound-bunny_1k.smf`
+- `9` lights
+
+images/scene_bunnygrid0.png | images/scene_bunnygrid10.png
+--- | ---
+![](images/scene_bunnygrid0.png) | ![](images/scene_bunnygrid10.png)
+`597.164978s` | `32.427299s`
+
+![](images/bunnygridline-graph.png)
+
+### Bunny
+- `5000` objects
+- `bound-bunny_5k.smf`
+- `9` lights
+
+images/scene_bunny0.png | images/scene_bunny9.png
+--- | ---
+![](images/scene_bunny0.png) | ![](images/scene_bunny9.png)
+`330.499207s` | `10.303057s`
+
+![](images/bunnyline-graph.png)
