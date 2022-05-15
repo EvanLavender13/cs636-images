@@ -19,7 +19,7 @@ images/adaptive-aa.png | images/adaptive-aa-zoom.png
 ![](images/adaptive-aa.png) | ![](images/adaptive-aa-zoom.png)
 `33.682646s` | `582320` primary rays
 
-images/density1.png | images/density05.png | images/density01.png
+images/density1.png | images/density05.png | images/density025.png
 --- | --- | ---
-![](images/density1.png) | ![](images/density05.png) | ![](images/density01.png)
-`0.1` tolerance | `0.05` tolerance | `0.01` tolerance
+![](images/density1.png) | ![](images/density05.png) | ![](images/density025.png)
+`0.1` tolerance | `0.05` tolerance | `0.025` tolerance
