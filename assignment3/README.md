@@ -4,8 +4,8 @@
 ## Images
 All images are `512x512` resolution after down-sampling from `1024x1024`.
 
-## Bounded Volume Hierarchy
-I implemented a Bounded Volume Hierarchy as the acceleration data structure.
+## Bounding Volume Hierarchy
+I implemented a Bounding Volume Hierarchy as the acceleration data structure.
 All mesh-model objects in a scene are divided into a set of triangle objects prior to being placed into the hierarchy.
 The tree has a tuneable depth parameter that cuts off tree construction when at a certain depth, or a single object is left.
 It also accepts `-1` as a value, which will calculate the depth required to place each individual object at a leaf.
