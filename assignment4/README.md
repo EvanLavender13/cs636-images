@@ -2,6 +2,8 @@
 ## Assignment 4
 
 ## Images
+Tolerance is set to `0.05` for adaptive images.
+
 images/none-pixels.png | images/none-pixels-zoom.png
 --- | ---
 ![](images/none-pixels.png) | ![](images/none-pixels-zoom.png)
@@ -20,3 +22,4 @@ images/adaptive-aa.png | images/adaptive-aa-zoom.png
 images/density1.png | images/density05.png | images/density01.png
 --- | --- | ---
 ![](images/density1.png) | ![](images/density05.png) | ![](images/density01.png)
+`0.1` tolerance | `0.05` tolerance | `0.01` tolerance
