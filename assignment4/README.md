@@ -2,7 +2,7 @@
 ## Assignment 4
 
 ## Images
-Tolerance is set to `0.05` for adaptive images.
+Tolerance is set to `0.05` for adaptive image.
 
 images/none-pixels.png | images/none-pixels-zoom.png
 --- | ---
