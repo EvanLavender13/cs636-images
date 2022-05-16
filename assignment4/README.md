@@ -7,13 +7,13 @@
 images/none-pixels.png | images/none-pixels-zoom.png
 --- | ---
 ![](images/none-pixels.png) | ![](images/none-pixels-zoom.png)
-`16.938049s` | `262144` primary rays
+`17.360275s` | `262144` primary rays
 
 ### Uniform AA
 images/uniform-aa.png | images/uniform-aa-zoom.png
 --- | ---
 ![](images/uniform-aa.png) | ![](images/uniform-aa-zoom.png)
-`66.215736` | `1048576` primary rays
+`66.353943` | `1048576` primary rays
 
 ### Adaptive AA
 Tolerance set to `0.05`.
@@ -21,8 +21,9 @@ Tolerance set to `0.05`.
 images/adaptive-aa.png | images/adaptive-aa-zoom.png
 --- | ---
 ![](images/adaptive-aa.png) | ![](images/adaptive-aa-zoom.png)
-`33.682646s` | `582320` primary rays
+`33.715668s` | `582320` primary rays
 
+### Ray Density
 images/density1.png | images/density05.png | images/density025.png
 --- | --- | ---
 ![](images/density1.png) | ![](images/density05.png) | ![](images/density025.png)
