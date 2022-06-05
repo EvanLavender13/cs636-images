@@ -8,14 +8,14 @@
 | images/test_norefraction.png |
 | --- |
 | ![](images/test_norefraction.png) |
-| `71.611031s` |
+| `20.437575s` |
 
 ### Yes Refraction
 
 | images/test_refraction.png |
 | --- |
 | ![](images/test_refraction.png) |
-| `637.489563s` |
+| `453.124047s` |
 
 ### Scene
 
